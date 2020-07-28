@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            advanced
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <style>
+            label{
+                float: left;
+                vertical-align: middle;
+                color: #222;
+                margin-left: 40px;
+                display: inline-block;
+                min-width: 167px;
+                width: 16%;
+            }
+            input{
+                display: inline-block;
+                font-size: 13px;
+                font: 400 13.3333px Arial;
+                height: 25px;
+                padding: 1px 8px;
+            }
+            button{
+                
+                margin-left: 805px;
+                height: 30px;
+                padding: 0px 12px;
+                font-size: 11px;
+                font-weight: bold;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-sm bg-dark justify-content-end">
+                <!-- Links -->
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Google Search</a>
+                  </li>
+                </ul>
+            </nav>
+        </div><br>
+               
+        <form action="https://google.com/search">
+            <div class="form-group row">
+                <label>all these words:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control"  name="as_q">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label>this exact word or phrase:</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="as_epq">
+            </div> 
+            </div>
+            <div class="form-group row">  
+                <label>any of these words:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="as_oq">
+                </div> 
+            </div>
+            <div class="form-group row">  
+                <label>none of these words:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name="as_eq">
+                </div> 
+            </div>
+            <button type="submit" class="btn btn-primary btn-sm">Advanced Search</button>    
+        </form>
+    </body>
+</html>
+
+
